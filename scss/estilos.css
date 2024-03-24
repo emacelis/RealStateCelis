@@ -828,10 +828,14 @@ button:hover {
     font-size: 25section-indexpx;
   }
   .servicios {
-    height: 910vh;
+    height: 420vh;
   }
+  .servicios  h6, .servicios p{
+    font-size: .55rem;
+  }
+
   .trabajo {
-    height: 45vh;
+    height: 145vh;
   }
   .svg {
     width: 115%;
@@ -840,6 +844,14 @@ button:hover {
     color: white;
     text-decoration: none;
   }
+  .bienvenidos .texto-encabezado .container h1{
+    font-size: 1.1rem;
+   
+}
+.bienvenidos .texto-encabezado .container h1,  .bienvenidos .texto-encabezado p{
+  font-size: .8rem;
+ 
+}
 }
 
 @media (min-width: 768px) {
@@ -892,6 +904,10 @@ button:hover {
     bottom: 0;
     z-index: 0;
   }
+  .bienvenidos .texto-encabezado .container h1{
+    font-size: 1.3rem;
+   
+}
   .boton-menu {
     margin-left: 1rem;
     margin-right: 0;
@@ -900,10 +916,13 @@ button:hover {
             order: 2;
   }
   .acerca-de-nosotros {
-    height: 80vh;
+    height: 100vh;
   }
   .servicios {
-    height: 430vh;
+    height: 730vh;
+  }
+  .servicios  h6, .servicios p{
+    font-size: 1rem;
   }
   .trabajo {
     height: 70vh;
@@ -949,10 +968,10 @@ button:hover {
     font-size: 1rem;
     color: white;
   }
-  .bienvenidos .texto-encabezado .container p {
-    font-size: 1rem;
-    color: black;
-  }
+  .bienvenidos .texto-encabezado .container h1{
+    font-size: 2.3rem;
+   
+}
   .texto-encabezado {
     z-index: 2;
   }
@@ -966,6 +985,16 @@ button:hover {
   .bienvenidos-index #menu-principal ul li a {
     font-size: 2.5rem;
   }
+
+  .bienvenidos .texto-encabezado .container h1{
+    font-size: 2.8rem;
+   
+}
+  .bienvenidos .texto-encabezado  p {
+    font-size: 1.3rem;
+    font-weight: 470;
+    color: black;
+  }
   .bienvenidos-index object {
     width: 257%;
   }
@@ -973,7 +1002,7 @@ button:hover {
     height: 50vh;
   }
   .servicios {
-    height: 90vh;
+    height: 210vh;
   }
   .svg {
     width: 220%;
@@ -991,5 +1020,9 @@ button:hover {
   .texto-encabezado .display-4 {
     width: 100%;
   }
+  .bienvenidos .texto-encabezado .container h1{
+    font-size: 3.3rem;
+   
+}
 }
 /*# sourceMappingURL=estilos.css.map */
